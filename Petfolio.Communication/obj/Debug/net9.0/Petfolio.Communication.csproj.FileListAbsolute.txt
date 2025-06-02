@@ -1,0 +1,11 @@
+/Users/thiagodossantosallves/Desktop/C#/Petfolio/Petfolio.Communication/bin/Debug/net9.0/Petfolio.Communication.deps.json
+/Users/thiagodossantosallves/Desktop/C#/Petfolio/Petfolio.Communication/bin/Debug/net9.0/Petfolio.Communication.dll
+/Users/thiagodossantosallves/Desktop/C#/Petfolio/Petfolio.Communication/bin/Debug/net9.0/Petfolio.Communication.pdb
+/Users/thiagodossantosallves/Desktop/C#/Petfolio/Petfolio.Communication/obj/Debug/net9.0/Petfolio.Communication.GeneratedMSBuildEditorConfig.editorconfig
+/Users/thiagodossantosallves/Desktop/C#/Petfolio/Petfolio.Communication/obj/Debug/net9.0/Petfolio.Communication.AssemblyInfoInputs.cache
+/Users/thiagodossantosallves/Desktop/C#/Petfolio/Petfolio.Communication/obj/Debug/net9.0/Petfolio.Communication.AssemblyInfo.cs
+/Users/thiagodossantosallves/Desktop/C#/Petfolio/Petfolio.Communication/obj/Debug/net9.0/Petfolio.Communication.csproj.CoreCompileInputs.cache
+/Users/thiagodossantosallves/Desktop/C#/Petfolio/Petfolio.Communication/obj/Debug/net9.0/Petfolio.Communication.dll
+/Users/thiagodossantosallves/Desktop/C#/Petfolio/Petfolio.Communication/obj/Debug/net9.0/refint/Petfolio.Communication.dll
+/Users/thiagodossantosallves/Desktop/C#/Petfolio/Petfolio.Communication/obj/Debug/net9.0/Petfolio.Communication.pdb
+/Users/thiagodossantosallves/Desktop/C#/Petfolio/Petfolio.Communication/obj/Debug/net9.0/ref/Petfolio.Communication.dll

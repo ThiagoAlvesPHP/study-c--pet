@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Petfolio.Application.UseCases.Pets.GetAll;
 using Petfolio.Application.UseCases.Pets.Register;
 using Petfolio.Application.UseCases.Pets.Update;
 using Petfolio.Communication.Requests;
@@ -22,12 +23,28 @@ public class PetController : Controller
 
     [HttpPut]
     [Route("{id}")]
-    [ProducesResponseType(typeof(ResponseRegisterPetJson), StatusCodes.Status204NoContent)]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(typeof(ResponseErrosJson), StatusCodes.Status400BadRequest)]
     public IActionResult Update([FromRoute] int id, [FromBody] RequestPetJson request)
     {
         var useCase = new UpdatePetUserCase();
         useCase.Execute(id, request);
+        return NoContent();
+    }
+
+    [HttpGet]
+    [ProducesResponseType(typeof(ResponseAllPetJson), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    public IActionResult GetAll()
+    {
+        var useCase = new GetAllPetsUseCase();
+        var response = useCase.Execute();
+
+        if (response.Pets.Any())
+        {
+            return Ok(response);
+        }
+        
         return NoContent();
     }
 }

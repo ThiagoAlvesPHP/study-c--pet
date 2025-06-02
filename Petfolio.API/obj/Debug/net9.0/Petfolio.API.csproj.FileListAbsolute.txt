@@ -51,3 +51,4 @@
 /Users/thiagodossantosallves/Desktop/C#/Petfolio/Petfolio.API/bin/Debug/net9.0/Petfolio.Communication.dll
 /Users/thiagodossantosallves/Desktop/C#/Petfolio/Petfolio.API/bin/Debug/net9.0/Petfolio.Application.pdb
 /Users/thiagodossantosallves/Desktop/C#/Petfolio/Petfolio.API/bin/Debug/net9.0/Petfolio.Communication.pdb
+/Users/thiagodossantosallves/Desktop/C#/Petfolio/Petfolio.API/obj/Debug/net9.0/Petfolio.API.sourcelink.json

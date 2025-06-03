@@ -14,7 +14,7 @@ public class GetAllPetsUseCase
                 {
                     Id = 1,
                     Name = "John",
-                    Type = Communication.Enums.PetType.Dog
+                    Type = Communication.Enums.PetType.Cat
                 }
             }
         };

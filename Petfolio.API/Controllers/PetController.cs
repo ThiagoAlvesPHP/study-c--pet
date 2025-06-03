@@ -47,4 +47,15 @@ public class PetController : Controller
         
         return NoContent();
     }
+
+    [HttpGet]
+    [Route("{id}")]
+    [ProducesResponseType(typeof(ResponseGetByIdJson), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(ResponseErrosJson), StatusCodes.Status404NotFound)]
+    public IActionResult GetById([FromRoute] int id)
+    {
+        var useCase = new GetByIdPetUseCase();
+        var response = useCase.Execute(id);
+        return Ok(response);
+    }
 }
